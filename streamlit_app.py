@@ -143,7 +143,7 @@ def get_current_time():
     formatted_time = now.strftime("%Y-%m-%d %H:%M")    
     return formatted_time
 
-
+'''
 def fetch_data():
     #Historic api
     username, apikey, pwd, token, qty = user_search("Shayak")
@@ -172,7 +172,7 @@ def fetch_data():
     return(round(last_row['rsi'],2))
 
 #rsi_val = fetch_data()
-
+'''
 
 
 #publishing on the web app
@@ -182,7 +182,7 @@ st.set_page_config(layout="wide")
 st.title("Algo Trade: Trend Following :fire:")
 st.write("Showcasing the features that are already done")
 st.header("Live Positions")
-st.write("Current time:", datetime.now())
+st.write("Current time:", get_current_time())
 #st.write("Current time:",formatted_date_time,"RSI:",round(last_row['rsi'],2))
 
 # Set the page configuration to wide mode
