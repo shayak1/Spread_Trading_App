@@ -1,1 +1,7 @@
 streamlit
+websocket
+pyotp
+logzero
+smartapi-python
+pandas
+numpy
