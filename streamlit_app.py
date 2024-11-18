@@ -182,7 +182,7 @@ st.set_page_config(layout="wide")
 st.title("Algo Trade: Trend Following :fire:")
 st.write("Showcasing the features that are already done")
 st.header("Live Positions")
-st.write("Current time:", time.now())
+st.write("Current time:", datetime.now())
 #st.write("Current time:",formatted_date_time,"RSI:",round(last_row['rsi'],2))
 
 # Set the page configuration to wide mode
