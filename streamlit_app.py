@@ -6,6 +6,7 @@ import json
 import time
 import streamlit as st
 from datetime import datetime
+import pytz
 
 
 # Step2:  Load configuration from JSON file
@@ -135,13 +136,29 @@ def user_search(client_name):
         print(f"User '{client_name}' not found in configuration.")
 
 
+# Function to convert GMT to IST
+def convert_gmt_to_ist(gmt_time):
+    # Define the GMT and IST time zones
+    gmt_zone = pytz.timezone('GMT')
+    ist_zone = pytz.timezone('Asia/Kolkata')
+
+    # Localize the input time to GMT
+    gmt_time = gmt_zone.localize(gmt_time)
+
+    # Convert GMT to IST
+    ist_time = gmt_time.astimezone(ist_zone)
+    
+    return ist_time
+    
 def get_current_time():
     # Get the current time
     now = datetime.now()
     
     # Format the time as "YYYY-MM-DD HH:MM"
     formatted_time = now.strftime("%Y-%m-%d %H:%M")    
-    return formatted_time
+    return convert_gmt_to_ist(formatted_time)
+    
+
 
 
 
