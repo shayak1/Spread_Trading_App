@@ -152,11 +152,11 @@ def convert_gmt_to_ist(gmt_time):
     
 def get_current_time():
     # Get the current time
-    now = datetime.now()
+    now = convert_gmt_to_ist(datetime.now())
     
     # Format the time as "YYYY-MM-DD HH:MM"
     formatted_time = now.strftime("%Y-%m-%d %H:%M")    
-    return convert_gmt_to_ist(formatted_time)
+    return formatted_time
     
 
 
