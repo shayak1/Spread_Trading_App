@@ -8,7 +8,7 @@ import streamlit as st
 
 
 # Step2:  Load configuration from JSON file
-def load_config(file_path='/workspaces/Spread_Trading_App/config_all_users.json'):
+def load_config(file_path='config_all_users.json'):
     with open(file_path, 'r') as f:
         return json.load(f)
 
