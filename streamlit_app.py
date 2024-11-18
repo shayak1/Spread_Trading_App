@@ -152,7 +152,7 @@ def fetch_data():
         "exchange": "NSE",
         "symboltoken": "99926000",
         "interval": "ONE_HOUR",
-        "fromdate": "2024-10-15 09:15", 
+        "fromdate": "2024-11-01 09:15", 
         "todate": get_current_time()
         }
         candledata = smart_api.getCandleData(historicParam)
@@ -170,7 +170,7 @@ def fetch_data():
     print("Current time:",formatted_date_time,"RSI:",round(last_row['rsi'],2))
     return(round(last_row['rsi'],2))
 
-rsi_val = fetch_data()
+#rsi_val = fetch_data()
 
 
 
