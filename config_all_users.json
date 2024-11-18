@@ -1,0 +1,97 @@
+{
+    "User": [
+        {
+        "name": "Shayak",
+        "username": "S720835",
+        "password" : "2886",
+        "apikey" : "Pb0pp0fn",
+        "token" : "FWUXJ64M55HZPMHWITYHLAXZ64",
+        "qty" : 100
+        },
+        {
+        "name": "pankaj",
+        "username": "P340021",
+        "password": "7720",
+        "token": "AIYDOGPKJEGQNKA27YIZFD5JUA",
+        "apikey": "ueOUeHAk",
+        "qty" : 120
+        },
+        {
+        "name": "sneha",
+        "username": "R384040",
+        "password": "4760",
+        "token": "IYGJRUTMJO6OGMV4R4KDR6R36Q",
+        "apikey": "LkLCGI8b",
+        "qty" : 120
+        },
+        
+        {
+        "name": "tambi",
+        "username": "J57724553",
+        "password": "1988",
+        "token": "UHTHEPIJQICNIZIQV3DSVN7KTM",
+        "apikey":"B5FmEfos",
+        "qty": 24
+        },
+
+        {
+        "name": "simran",
+        "username": "S51988425",
+        "password": "1982",
+        "token": "Z7FTZPQTDLRZYEJBMZVPAYJ5RE",
+        "apikey":"LoekRxZp",
+        "qty": 140
+        },
+
+        { 
+        "name": "rohit",
+        "username": "R59868243",
+        "password": "1989",
+        "token": "TVA53B67TGPKHQWPTPZCLT4REI",
+        "apikey":"mkA56JlU",
+        "qty": 90
+        },
+
+        { 
+        "name": "karan",
+        "username": "TETWA2011",
+        "password": "3001",
+        "token": "GNCYGJI4NAJTEKKF7VLGBANI5Y",
+        "apikey":"YOvY9RVO",
+        "qty" : 200
+        },
+
+        { 
+        "name": "alokemoy",
+        "username": "A52045871",
+        "password": "1724",
+        "token": "4FEVQNIM72DP6ADGZI2M4ZYMZM",
+        "apikey": "TEdQNZ5U",
+        "qty": 30
+        },
+
+        {
+        "name": "indranil",
+        "username": "I57278325",
+        "password": "1983",
+        "token": "DGXGKDMGLWO4VJ2XWGWLKAHILI",
+        "apikey":"I9stiShl",
+        "qty":150
+        },
+
+        {
+        "name": "shomik",
+        "username": "AAAA205165",
+        "password": "1984",
+        "token": "VNAEX47PUIEPO3T35GIZKNTTJM",
+        "apikey":"UWYnItpY",
+        "qty":16
+        }
+        
+
+
+    ]
+}
+
+
+
