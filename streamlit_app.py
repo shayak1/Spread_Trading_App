@@ -143,36 +143,6 @@ def get_current_time():
     formatted_time = now.strftime("%Y-%m-%d %H:%M")    
     return formatted_time
 
-'''
-def fetch_data():
-    #Historic api
-    username, apikey, pwd, token, qty = user_search("Shayak")
-    auth_token, feed_token =login_new(username, apikey, pwd, token)
-    try:
-        historicParam={
-        "exchange": "NSE",
-        "symboltoken": "99926000",
-        "interval": "ONE_HOUR",
-        "fromdate": "2024-11-01 09:15", 
-        "todate": get_current_time()
-        }
-        candledata = smart_api.getCandleData(historicParam)
-        column_names = ['time', 'open', 'high', 'low', 'close', "volume"]
-        candledata_df = pd.DataFrame(candledata['data'], columns = column_names)
-    except Exception as e:
-        print("Historic Api failed: {}".format(e.message))
-
-
-    candledata_df['rsi'] = ta.rsi(candledata_df['close'],14)
-
-    last_row = candledata_df.iloc[-1]
-    dt= datetime.fromisoformat(last_row['time'])
-    formatted_date_time = dt.strftime('%Y-%m-%d %H:%M:%S')
-    print("Current time:",formatted_date_time,"RSI:",round(last_row['rsi'],2))
-    return(round(last_row['rsi'],2))
-
-#rsi_val = fetch_data()
-'''
 
 
 #publishing on the web app
